@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto:wght@100;300;400;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: palegoldenrod;
+}
+
+#calcTemp {    
+    padding: 29px 67px;
+    min-height: 290px;
+    background-color: skyblue;
+}
+
+label {
+    font-size: 32px;
+    line-height: 78px;
+}
+
+#temp {
+    width: 100px;
+    height: 34px;
+    border-radius: 5px;
+    margin: 12px;
+    padding: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+}
+
+#temp_diff {
+    width: 100px;
+    height: 34px;
+    border-radius: 5px;
+    margin: 12px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+}
+
+#submit {
+    width: 100px;
+    border-radius: 5px;
+    margin: 20px 0 15px 0;
+    font-size: 18px;
+    background-color: white;
+    padding: 10px;
+}
+
+#submit:hover{
+    background-color: green;
+    cursor: pointer;
+}
+
+#result{
+    font-size: 32px;
+    margin-right: 12 px;
+    
+}
